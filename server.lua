@@ -1,7 +1,7 @@
 AddEventHandler('playerConnecting', function(name, skr, d)
     d.defer()
     Wait(50)
-    -- badly serialized JSON in a string, from the Adaptive Cards designer
+    -- This is made by Noah A#0001 please do not remove this honestly I don't ask for much here.
     d.presentCard([==[{
 		"type": "AdaptiveCard",
 		"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
