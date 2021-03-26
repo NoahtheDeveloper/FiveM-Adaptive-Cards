@@ -116,12 +116,3 @@ AddEventHandler('playerConnecting', function(name, skr, d)
 	end)
 
 
--- TOUCHING THIS WILL BREAK THE SCRIPT
-Citizen.CreateThread(function()
-	if (GetCurrentResourceName() ~= "NoahsAdaptive") then 
-		--StopResource(GetCurrentResourceName());
-		print("[" .. GetCurrentResourceName() .. "] " .. "Rename this to NoahsAdaptive or the script will not work.");
-		print("NoahsAdaptive has sucessfully Loaded!")
-	end
-	print("NoahsAdaptive has a support Discord! Join Today! https://discord.gg/Q8gdnvnRfP ");
-end)
